@@ -1,0 +1,36 @@
+.Navbar {
+  flex: 1;
+  height: 100vh;
+  background: white;
+}
+
+.brand-logo {
+  padding-left: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Navbar ul a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  transition: 0.25s;
+}
+
+.Navbar ul a:hover {
+  background: #efefef;
+  border-left: 5px solid red;
+}

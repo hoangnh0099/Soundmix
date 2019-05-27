@@ -1,0 +1,10 @@
+.Home {
+  flex: 4;
+  height: 100vh;
+  overflow: auto;
+  padding: 50px;
+}
+
+.Home h1 {
+  margin-bottom: 50px;
+}

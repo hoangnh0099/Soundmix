@@ -1,0 +1,44 @@
+{
+  "music": [
+    {
+      "id": 1,
+      "source": "http://localhost:8888/Soundmix/music/MASS%20-%20Kyoto%20At%20Night.mp3",
+      "title": "Tokyo At Night",
+      "artist": "MASS",
+      "genre": "Future Bass",
+      "thumbnail": "http://localhost:8888/Soundmix/images/kyoto-at-night-mass-thumbnail.jpg"
+    },
+    {
+      "id": 2,
+      "source": "http://localhost:8888/Soundmix/music/MASS%20-%20Memories.mp3",
+      "title": "Memories",
+      "artist": "MASS",
+      "genre": "Future Bass",
+      "thumbnail": "http://localhost:8888/Soundmix/images/memories-mass-thumbnail.jpg"
+    },
+    {
+      "id": 3,
+      "source": "http://localhost:8888/Soundmix/music/MASS%20-%20Emptiness.mp3",
+      "title": "Emptiness",
+      "artist": "MASS",
+      "genre": "Future Bass",
+      "thumbnail": "http://localhost:8888/Soundmix/images/Emptiness.jpg"
+    },
+    {
+      "id": 4,
+      "source": "http://localhost:8888/Soundmix/music/MASS%20-%20Starship.mp3",
+      "title": "Starship",
+      "artist": "MASS",
+      "genre": "Future Bass",
+      "thumbnail": "http://localhost:8888/Soundmix/images/Starship.jpg"
+    },
+    {
+      "id": 5,
+      "source": "http://localhost:8888/Soundmix/music/Em%20Kh%c3%b4ng%20Th%e1%bb%83%20(Houzerd%20Remix)%20-%20Ti%c3%aan%20Ti%c3%aan%20x%20Touliver.mp3",
+      "title": "Em Không Thể (Houzerd Remix)",
+      "artist": "Tiên Tiên ft Touliver",
+      "genre": "Bass House",
+      "thumbnail": "http://localhost:8888/Soundmix/images/Em-Khong-The-Remix-Houzerd-Touliver-Tien-Tien.jpg"
+    }
+  ]
+}
