@@ -6,13 +6,14 @@ import './Navbar.css';
 import Home from './../Home/Home';
 import Artists from './../Artists/Artists';
 import NotFound from './../NotFound/NotFound';
+import Player from './../Player/Player';
 
 function Navbar() {
   return (
     <BrowserRouter>
       <div className="Navbar">
         <div className="brand-logo">
-          <Link to="/">Soundmix</Link>
+          <Link to="/">Sound<span>MIX</span></Link>
         </div>
 
         <ul>

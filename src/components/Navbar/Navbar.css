@@ -34,3 +34,10 @@ a {
   background: #efefef;
   border-left: 5px solid red;
 }
+
+.brand-logo span {
+  background: red;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}

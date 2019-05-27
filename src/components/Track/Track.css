@@ -7,16 +7,20 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  position: relative;
   cursor: pointer;
+  position: relative;
 }
 
 .track-information {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px 0px;
   margin-left: 20px;
+  width: 85%;
+}
+
+.track-thumbnail {
+  position: relative;
 }
 
 .track-thumbnail img {
@@ -26,8 +30,13 @@
   
 }
 
-.Track:hover .button-play {
+.Track:hover .button-play, 
+.track-thumbnail:hover .button-pause {
   display: block;
+}
+
+.track-thumbnail:hover .button-play {
+  display: none;
 }
 
 .button-play {
@@ -39,10 +48,42 @@
   background: red;
   cursor: pointer;
   position: absolute;
-  left: 20px;
+  right: 50px;
 }
 
-.button-play i {
+.button-pause {
+  display: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  background: red;
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.button-play i,
+.button-pause i {
   color: white;
   font-size: 20px;
+}
+
+.track-sub-information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.track-sub-information p {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.track-sub-information span {
+  margin-top: 10px;
+  padding: 10px;
+  background: #efefef;
+  border-radius: 20px;
 }
