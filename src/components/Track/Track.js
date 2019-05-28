@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Track.css';
-import data from './../../modals/data.json';
 
 // Component
 

@@ -6,7 +6,6 @@ import './Navbar.css';
 import Home from './../Home/Home';
 import Artists from './../Artists/Artists';
 import NotFound from './../NotFound/NotFound';
-import Player from './../Player/Player';
 
 function Navbar() {
   return (
