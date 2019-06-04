@@ -15,24 +15,14 @@ class Home extends Component {
     this.audio = new Audio();
   }
 
-  onPlay = (id) => {
-    return () => {
-      this.audio.src = data.music[id-1].source;
-      this.setState({ 
-        play: !this.state.play,
-        isShowPlayer: true
-      });
-      this.audio.play();
-    }
-  }
-
-  onPause = (id) => {
+  onTogglePlay = (id) => {
     return () => {
       this.audio.src = data.music[id-1].source;
       this.setState({ 
         play: !this.state.play 
+      }, () => {
+        this.state.play ? this.audio.play() : this.audio.pause()
       });
-      this.audio.pause();
     }
   }
   
@@ -51,8 +41,7 @@ class Home extends Component {
                 source={track.source}
                 id={track.id}
                 genre={track.genre}
-                onPlay={ this.onPlay(track.id) }
-                onPause={ this.onPause(track.id) }
+                onTogglePlay={ this.onTogglePlay(track.id) }
                 isPlay={ this.state.play }
                 />
             );
